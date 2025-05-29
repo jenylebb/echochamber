@@ -55,15 +55,9 @@ git clone https://github.com/jenylebb/echochamber.git
 cd echochamber
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the pipeline in order:
 
-bash
-Copy
-Edit
 python scripts/reddit_scraper.py
 python scripts/analyze_tone.py
 python scripts/generate_baseline.py
